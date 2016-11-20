@@ -81,6 +81,8 @@ ifeq ("$(PLATFORM_NET)", "CC3000")
 CPPFLAGS += -D_POSIX_C_SOURCE=200809
 endif
 
+CFLAGS += -DPARTICLE_USER_MODULE
+
 # Use application source info regardless of release/debug build
 CFLAGS += -DLOG_INCLUDE_SOURCE_INFO
 LOG_MODULE_CATEGORY = app

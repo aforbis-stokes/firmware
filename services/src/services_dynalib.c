@@ -25,5 +25,6 @@
 #include "debug.h"
 #include "jsmn.h"
 #include "logging.h"
+#include "led_service.h"
 #include "services_dynalib.h"
 
